@@ -1,5 +1,5 @@
 from abc import ABCMeta, abstractmethod
-from session import Session
+from . import session
 from datetime import datetime
 
 class Command(metaclass=ABCMeta):

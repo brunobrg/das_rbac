@@ -1,4 +1,4 @@
-from command import Command
+from . import command
 
 class UserCommands(Command):
     def __init__ (self, name):

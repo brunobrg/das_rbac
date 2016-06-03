@@ -1,5 +1,4 @@
-from role import Role
-from command import Command
+from . import role, command
 
 class Privilege:
 

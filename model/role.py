@@ -1,4 +1,5 @@
 from abc import ABCMeta
+from .singleton import Singleton
 
 class Role(metaclass=ABCMeta):
 

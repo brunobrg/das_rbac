@@ -1,7 +1,7 @@
-from role import Administrator
-from commands_administrator import CreateNewRole, AssignUserToRole
-from session import Session
-from user import User
+from model.role import Administrator, SubRole
+from model.commands_administrator import CreateNewRole, AssignUserToRole
+from model.session import Session
+from model.user import User
 
 if __name__ == "__main__":
     user = User("bruno", "12345")

@@ -1,4 +1,4 @@
-from user import User
+from . import user
 
 class Session:
 

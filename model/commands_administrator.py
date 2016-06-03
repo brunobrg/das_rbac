@@ -1,5 +1,5 @@
-from command import Command
-from role import SubRole, Administrator
+from . import role
+from .command import Command
 
 class CreateNewRole (Command):
 
